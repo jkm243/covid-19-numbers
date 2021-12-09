@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="icon" href="img/logo.ico">
+    <title>Covid-19</title>
+
+    <!-- lien Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Lien Fonts -->
+    <link rel="stylesheet" href="css/font-face.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lien FontAwesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+     <!-- header -->
+     <nav
+     class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start sticky-top reveal">
+     <a class="navbar-brand" href="index.html">
+         <img src="img/logo.png" alt="Logo">
+         <span class="navbar-text">Covapp Numbers</span>
+     </a>
+     <button class="navbar-toggler ml-1 right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+
+         <div class="jj"></div>
+
+         <ul class="navbar-nav mx-auto text-md-center text-left">
+             <li class="nav-item">
+                 <a class="nav-link" href="infosplus.html">Infos+</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="preventions.html">Preventions</a>
+             </li>
+             <li class="nav-item my-auto">
+                 <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="index.html">Accueil</a>
+             </li>
+         </ul>
+     </div>
+ </nav>
+ <!-- END HEADER -->
+    <!-- Помни, оставайся дома -->
+    <h2 class="mt text-center bg-danger">
+      Помни, оставайся дома</h2>
+  <!-- END -->
+
+     <!-- FIRST PART -->
+     <div class="page container-fluid">
+      <div class="row mt-5 pl-5">
+          <div class=" part-1 col-6">
+              <h3 class="title mt-5">
+                Коронавирус
+              </h3>
+              <h5>
+                (лат. Coronaviridae) — семейство вирусов, включающее на май 2020 года 43 вида РНК-содержащих вирусов, объединённых в два подсемейства, которые поражают млекопитающих, включая человека, птиц и земноводных. Название связано со строением вируса, шиповидные отростки которого напоминают солнечную корону. Известно 7 коронавирусов, поражающих человека:
+              </h5>
+              <div class="lien">
+              </div>
+          </div>
+          <div class="part-2 col-6">
+              <img class="img-fluid" src="svg/undraw_social_distancing_2g0u.svg" alt="home_image">
+          </div>
+      </div>
+  </div>
+  
+  <!-- END FIRST PART -->
+<!-- PART SEARCH NUMBERS COVID -->
+    <section class="container">
+      <h1 class="text-center mt-5">Covid-19 Numbers</h1>
+      <h6 id="time-date"></h6>
+      <section class="infos row">
+        <div class="form-group col-12">
+          <label for="to">Tap your city or country </label>
+          <input class="form-control" type="text" name="to" id="search" aria-describedby="ToHelp"
+          placeholder="Ex: Congo"/>
+        </div>    
+      </section>  
+      <section id="match-list" class="mb-5" > 
+      </section>    
+    </section>
+    <!-- END PART SEARCH -->
+
+    <!-- FOOTER -->
+<section class="footer">
+  <p>© 2020 Работа студенты Иивт-Ви13 Катсува Жак-Эммануэль Мутано  <br>
+Все материалы, находящиеся на сайте охраняются в соответствии с законодательством Российской Федерации, в том числе об авторском праве и смежных правах.</p>
+<div class="row">
+<img class="img-fluid col-2" src="svg/logo.svg" alt="logo">
+<img class="img-fluid col-2" src="img/who-logo-world-health-organization-logo.png" alt="logo">
+<img class="img-fluid col-2" src="img/university-logo-small-horizontal-black-82ccd23e07.png" alt="logo">
+</div>
+</section>
+<!-- END FOOTER -->
+
+  </body>
+  <script src="js/ajax.js"></script>
+  <script src="vendor/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
+  <script src="js/main3.js"></script>
+ 
+</html>
